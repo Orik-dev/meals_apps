@@ -12,11 +12,11 @@ final theme = ThemeData(
 );
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MealsApps());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MealsApps extends StatelessWidget {
+  const MealsApps({super.key});
 
   @override
   Widget build(BuildContext context) {
